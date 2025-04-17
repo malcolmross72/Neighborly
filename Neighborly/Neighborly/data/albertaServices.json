@@ -1,0 +1,394 @@
+[
+    [
+        {
+            "city": "Edmonton",
+            "region": "Central Alberta",
+            "name": "Bent Arrow Traditional Healing Society",
+            "category": "Indigenous Housing & Support",
+            "description": "Offers family housing, employment programs, and cultural support.",
+            "address": "11648 85 St NW, Edmonton, AB",
+            "contact": "(780) 481-3451",
+            "url": "https://bentarrow.ca/"
+        },
+        {
+            "city": "Edmonton",
+            "region": "Central Alberta",
+            "name": "Indigenous Peoples Experience",
+            "category": "Cultural Attraction",
+            "description": "Interactive exhibit showcasing Indigenous heritage and history.",
+            "address": "Fort Edmonton Park, 7000 143 St NW, Edmonton, AB",
+            "contact": "(780) 496-7381",
+            "url": "https://www.fortedmontonpark.ca/learn/blog/post/the-importance-of-acknowledging-land-and-treaty"
+        },
+        {
+            "city": "Edmonton",
+            "region": "Central Alberta",
+            "name": "Edmonton Meals on Wheels",
+            "category": "Low Budget Meal",
+            "description": "Affordable and nutritious meal services for the community.",
+            "address": "11111 103 Ave NW, Edmonton, AB",
+            "contact": "(780) 429-2020",
+            "url": "https://emow.ca/"
+        },
+        {
+            "city": "Edmonton",
+            "region": "Central Alberta",
+            "name": "West Edmonton Mall",
+            "category": "Attraction",
+            "description": "Massive indoor mall with shopping, dining, and entertainment.",
+            "address": "8882 170 St NW, Edmonton, AB",
+            "contact": "(780) 444-5321",
+            "url": "https://www.wem.ca/"
+        },
+        {
+            "city": "Edmonton",
+            "region": "Central Alberta",
+            "name": "World Waterpark",
+            "category": "Amusement",
+            "description": "Indoor waterpark with slides and wave pool inside WEM.",
+            "address": "8882 170 St NW, Edmonton, AB",
+            "contact": "(780) 444-5300",
+            "url": "https://www.wem.ca/play/attractions/world-waterpark"
+        },
+        {
+            "city": "Edmonton",
+            "region": "Central Alberta",
+            "name": "Rick Bronson's The Comic Strip",
+            "category": "Entertainment",
+            "description": "Comedy club located on Bourbon Street inside WEM.",
+            "address": "8882 170 St NW Unit #1646, Edmonton, AB",
+            "contact": "(780) 483-5999",
+            "url": "https://wem.thecomicstrip.ca/"
+        },
+        {
+            "city": "Edmonton",
+            "region": "Central Alberta",
+            "name": "Galaxyland",
+            "category": "Amusement",
+            "description": "Large amusement park inside West Edmonton Mall.",
+            "address": "8882 170 St NW, Edmonton, AB",
+            "contact": "(780) 444-5300",
+            "url": "https://www.wem.ca/play/attractions/galaxyland"
+        },
+        {
+            "city": "Edmonton",
+            "region": "Central Alberta",
+            "name": "Fantasyland Hotel",
+            "category": "Hotel",
+            "description": "Modern lodging with quirky themed rooms located in WEM.",
+            "address": "17700 87 Ave NW, Edmonton, AB",
+            "contact": "(780) 444-3000",
+            "url": "https://flh.ca/"
+        },
+        {
+            "city": "Edmonton",
+            "region": "Central Alberta",
+            "name": "Treaty 6 Events Edmonton",
+            "category": "Indigenous Event",
+            "description": "Various Indigenous-led festivals, powwows, and cultural gatherings.",
+            "address": "11735 108 Ave NW, Edmonton, AB",
+            "contact": "(780) 423-2822",
+            "url": "https://www.treatysix.org/"
+        },
+        {
+            "city": "Edmonton",
+            "region": "Central Alberta",
+            "name": "West End Bingo",
+            "category": "Bingo",
+            "description": "Community bingo hall supporting local causes. Walk-ins welcome.",
+            "address": "17304 105 Ave NW, Edmonton, AB",
+            "contact": "(780) 484-5678",
+            "url": "https://www.westendbingo.ca/todays-pots/"
+        },
+        {
+            "city": "Edmonton",
+            "region": "Central Alberta",
+            "name": "River Cree Resort and Casino",
+            "category": "Casino",
+            "description": "Indigenous-owned 4-star casino resort offering entertainment and lodging.",
+            "address": "300 East Lapotac Blvd, Enoch, AB",
+            "contact": "(780) 484-2121",
+            "url": "https://www.rivercreeresort.com/"
+        },
+        {
+            "city": "Edmonton",
+            "region": "Central Alberta",
+            "name": "Native Delights",
+            "category": "Indigenous Restaurant",
+            "description": "Authentic Indigenous cuisine served via mobile catering.",
+            "address": "Various locations in Edmonton, AB",
+            "contact": "(780) 850-6622",
+            "url": "https://nativedelights.ca/"
+        },
+        {
+            "city": "Edmonton",
+            "region": "Central Alberta",
+            "name": "New Play Arcade",
+            "category": "Arcade",
+            "description": "Lots of fun games and well organized arcade inside WEM.",
+            "address": "8882 170 St NW #1588, Edmonton, AB",
+            "contact": "(780) 756-2455",
+            "url": "https://www.wem.ca/play/attractions/galaxyland/rides/newplay-arcade-games"
+        },
+        {
+            "city": "Edmonton",
+            "region": "Central Alberta",
+            "name": "Homefire Grill",
+            "category": "Indigenous Restaurant",
+            "description": "Indigenous-inspired menu with bison ribs, wild salmon, and bannock.",
+            "address": "18210 100 Ave NW, Edmonton, AB",
+            "contact": "(780) 489-8086",
+            "url": "https://www.homefiregrill.ca/"
+        },
+        {
+            "city": "Edmonton",
+            "region": "Central Alberta",
+            "name": "Canadian Native Friendship Centre",
+            "category": "Indigenous Support Services",
+            "description": "Offers cultural programs, housing support, youth & elder engagement.",
+            "address": "10128 121 St NW, Edmonton, AB",
+            "contact": "(780) 761-1900",
+            "url": "https://www.cnfc.ca/"
+        },
+        {
+            "city": "Edmonton",
+            "region": "Central Alberta",
+            "name": "Events Edmonton",
+            "category": "Indigenous Events & Culture",
+            "description": "Hosts Indigenous-led events and festivals celebrating culture and art.",
+            "address": "11735 108 Ave NW, Edmonton, AB",
+            "contact": "(780) 423-2822",
+            "url": "https://www.eventsedmonton.ca/"
+        },
+        {
+            "city": "Edmonton",
+            "region": "Central Alberta",
+            "name": "Hope Mission – Herb Jamieson Centre",
+            "category": "Soup Kitchen",
+            "description": "Homeless shelter offering hot meals, shelter, and showers nearby.",
+            "address": "10014 105A Avenue NW, Edmonton, AB",
+            "contact": "(780) 429-3470",
+            "url": "https://hopemission.com/"
+        },
+        {
+            "city": "Edmonton",
+            "region": "Central Alberta",
+            "name": "WEAC – Women's Emergency Accommodation Centre",
+            "category": "Shelter",
+            "description": "24/7 emergency shelter and support for women in need.",
+            "address": "9611 101A Ave, Edmonton, AB",
+            "contact": "(780) 423-5302",
+            "url": "https://e4calberta.org/shelter-housing/"
+        },
+        {
+            "city": "Edmonton",
+            "region": "Central Alberta",
+            "name": "Boyle Street’s Pet Food Bank",
+            "category": "Pet Food",
+            "description": "Free pet food to guardians in need. Drop-in Wednesdays at Bissell East.",
+            "address": "10527 96 St NW, Edmonton, AB",
+            "contact": " (780) 424-4106",
+            "url": "https://bissellcentre.org/programs/"
+        },
+        {
+            "city": "Edmonton",
+            "region": "Central Alberta",
+            "name": "Pet Pantry – Edmonton Humane Society",
+            "category": "Pet Food",
+            "description": "Helps low-income pet guardians with food and supplies.",
+            "address": "13620 163 St NW, Edmonton, AB",
+            "contact": "(780) 471-1774",
+            "url": "https://www.edmontonhumanesociety.com/services/pet-pantry/"
+        },
+        {
+            "city": "Edmonton",
+            "region": "Central Alberta",
+            "name": "Ronald McDonald House Charities – Edmonton",
+            "category": "Medical Housing",
+            "description": "Temporary housing for families with children receiving hospital care.",
+            "address": "7726 107 St NW, Edmonton, AB",
+            "contact": "(780) 439-5437",
+            "url": "https://rmhcalberta.org/"
+        },
+        {
+            "city": "Edmonton",
+            "region": "Central Alberta",
+            "name": "Alberta Avenue Medical Clinic",
+            "category": "Walk-In Clinic",
+            "description": "Community walk-in with general medical services.",
+            "address": "11806 95 St NW, Edmonton, AB",
+            "contact": "(780) 474-4400",
+            "url": "https://albertaavenuemedicalclinic.ca/"
+        },
+        {
+            "city": "Edmonton",
+            "region": "Central Alberta",
+            "name": "Edgewater Medical Clinic",
+            "category": "Walk-In Clinic",
+            "description": "Walk-in and family physician clinic with lab access.",
+            "address": "2016 Sherwood Dr #184, Edmonton, AB",
+            "contact": "(780) 467-3020",
+            "url": "https://edgewatermedical.ca/"
+        },
+        {
+            "city": "Edmonton",
+            "region": "Central Alberta",
+            "name": "Kingsway Medicentre",
+            "category": "Walk-In Clinic",
+            "description": "Walk-in services including minor urgent care, referrals, and exams.",
+            "address": "10807 106 Ave NW, Edmonton, AB",
+            "contact": "(780) 426-3412",
+            "url": "https://www.medicentres.com/medicentre-locations/kingsway-medicentre/"
+        },
+        {
+            "city": "Edmonton",
+            "region": "Central Alberta",
+            "name": "East Edmonton Health Centre",
+            "category": "Community Health Clinic",
+            "description": "Full-service health center with lab, urgent care, and support programs.",
+            "address": "7910 112 Ave NW, Edmonton, AB",
+            "contact": "(780) 342-4700",
+            "url": "https://www.albertahealthservices.ca/eehc/eehc.aspx"
+        },
+        {
+            "city": "Edmonton",
+            "region": "Central Alberta",
+            "name": "Delta Medicentre",
+            "category": "Walk-In Clinic",
+            "description": "Walk-in, family, and urgent care clinic with X-ray and pharmacy on-site.",
+            "address": "13503 Fort Rd NW, Edmonton, AB",
+            "contact": "(780) 472-0650",
+            "url": "https://business.google.com/v/delta-walk-in-and-family-medical-clinic/06987780551234545680/3858/"
+        },
+        {
+            "city": "Edmonton",
+            "region": "Central Alberta",
+            "name": "Royal Alberta Museum",
+            "category": "Museum",
+            "description": "Immersive museum exploring Alberta’s people, natural history, and Indigenous cultures.",
+            "address": "9810 103a Ave NW, Edmonton, AB",
+            "contact": "(825) 468-6000",
+            "url": "https://royalalbertamuseum.ca/"
+        },
+        {
+            "city": "Edmonton",
+            "region": "Central Alberta",
+            "name": "TELUS World of Science – Edmonton",
+            "category": "Science Centre",
+            "description": "Interactive exhibits, planetarium, and IMAX theatre for families and schools.",
+            "address": "11211 142 St NW, Edmonton, AB",
+            "contact": "(780) 451-3344",
+            "url": "https://telusworldofscienceedmonton.ca/"
+        },
+        {
+            "city": "Edmonton",
+            "region": "Central Alberta",
+            "name": "Fort Edmonton Park",
+            "category": "Historical Attraction",
+            "description": "Living history museum showcasing Indigenous culture and Edmonton’s growth.",
+            "address": "7000 143 St NW, Edmonton, AB",
+            "contact": "(780) 496-8787",
+            "url": "https://www.fortedmontonpark.ca/"
+        },
+        {
+            "city": "Edmonton",
+            "region": "Central Alberta",
+            "name": "Edmonton Valley Zoo",
+            "category": "Attraction",
+            "description": "Family-friendly zoo with conservation programs and animal exhibits.",
+            "address": "13315 Buena Vista Rd, Edmonton, AB",
+            "contact": "(780) 496-8787",
+            "url": "https://www.edmonton.ca/attractions_events/edmonton-valley-zoo"
+        },
+        {
+            "city": "Edmonton",
+            "region": "Central Alberta",
+            "name": "K-Days",
+            "category": "Event",
+            "description": "Edmonton’s largest summer festival with rides, music, food, and fireworks.",
+            "address": "7515 118 Ave NW, Edmonton EXPO Centre, AB",
+            "contact": "",
+            "url": "https://www.k-days.com"
+        },
+        {
+            "city": "Edmonton",
+            "region": "Central Alberta",
+            "name": "Taste of Edmonton",
+            "category": "Event",
+            "description": "Annual food festival in Churchill Square showcasing local restaurants and culture.",
+            "address": "1 Sir Winston Churchill Square, Edmonton, AB",
+            "contact": "",
+            "url": "https://www.tasteofedm.ca"
+        },
+        {
+            "city": "Edmonton",
+            "region": "Central Alberta",
+            "name": "RGE RD",
+            "category": "Restaurant",
+            "description": "Fine dining with prairie-focused Canadian ingredients and elevated rustic fare.",
+            "address": "10643 123 St NW, Edmonton, AB",
+            "contact": "(780) 447-4577",
+            "url": "https://www.rgerd.ca/"
+        },
+        {
+            "city": "Edmonton",
+            "region": "Central Alberta",
+            "name": "The Marc",
+            "category": "Restaurant",
+            "description": "Modern French bistro with an award-winning wine list.",
+            "address": "9940 106 St, Edmonton, AB",
+            "contact": "(780) 429-2828",
+            "url": "https://www.themarc.ca/"
+        },
+        {
+            "city": "Edmonton",
+            "region": "Central Alberta",
+            "name": "La Petite Iza",
+            "category": "Restaurant",
+            "description": "Upscale tapas and wine bar featuring seasonal and local ingredients.",
+            "address": "10909 86 Ave NW, Edmonton, AB",
+            "contact": "(780) 437-5588",
+            "url": "https://www.lapetiteiza.com/"
+        },
+        {
+            "city": "Edmonton",
+            "region": "Central Alberta",
+            "name": "Alberta Council of Women’s Shelters",
+            "category": "Shelter",
+            "description": "Provides support, advocacy, and services to women and children escaping domestic violence.",
+            "address": "Edmonton, AB",
+            "contact": "(780) 456-7000",
+            "url": "https://acws.ca"
+        },
+        {
+            "city": "Edmonton",
+            "region": "Central Alberta",
+            "name": "Elizabeth Fry Society of Northern Alberta",
+            "category": "Shelter",
+            "description": "Supports women and gender-diverse individuals who are or may be at risk of criminalization and homelessness.",
+            "address": "10523 100 Ave NW, Edmonton, AB",
+            "contact": "(780) 421-1175",
+            "url": "https://efrynorthernalberta.com"
+        },
+        {
+            "city": "Edmonton",
+            "region": "Central Alberta",
+            "name": "Elizabeth House",
+            "category": "Shelter",
+            "description": "Homeless shelter supporting women in need during critical times.",
+            "address": "Edmonton, AB",
+            "contact": "N/A",
+            "url": ""
+        },
+        {
+            "city": "Edmonton",
+            "region": "Central Alberta",
+            "name": "Institute for the Advancement of Aboriginal Women",
+            "category": "Indigenous Support Services",
+            "description": "Programs and services to support the growth, protection, and advancement of Indigenous women.",
+            "address": "Edmonton, AB",
+            "contact": "(780) 479-8195",
+            "url": "https://iaaw.ca"
+        }
+    ]
+]
