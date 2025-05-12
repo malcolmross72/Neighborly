@@ -1,0 +1,25 @@
+{
+  "name": "neighborly",
+  "version": "1.0.0",
+  "description": "A web app to help Albertans and visitors find local services, events, and Indigenous-led resources.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malcolmross72/Neighborly.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/malcolmross72/Neighborly/issues"
+  },
+  "homepage": "https://github.com/malcolmross72/Neighborly#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.1"
+  }
+}

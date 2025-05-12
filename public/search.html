@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>neighborly search</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- === Search Form === -->
+<div class="search-container">
+  <form id="searchForm">
+    <div class="form-row">
+      <label for="locationSelect">city:</label>
+      <select id="locationSelect">
+        <option value="">--select city--</option>
+        <option value="calgary">calgary</option>
+        <option value="edmonton">edmonton</option>
+        <option value="red deer">red deer</option>
+        <option value="lethbridge">lethbridge</option>
+        <option value="medicine hat">medicine hat</option>
+      </select>
+
+      <label for="category">category:</label>
+      <select id="category">
+        <option value="">--Select a category--</option>
+        <option value="food assistance">food assistance</option>
+        <option value="housing">housing</option>
+        <option value="legal aid">legal aid</option>
+        <option value="employment services">employment services</option>
+        <option value="healthcare">healthcare</option>
+        <option value="education">education</option>
+        <option value="mentalhealth">mentalhealth</option>
+        <option value="seniors care">seniors care</option>
+        <option value="childcare">childcare</option>
+        <option value="entertainment">entertainment</option>
+        <option value="indigenous services">indigenous services</option>
+      </select>
+
+      <label for="searchTerm">Search:</label>
+      <input type="text" id="searchTerm" placeholder="Search term..." />
+
+      <button type="submit">Search</button>
+    </div>
+  </form>
+</div>
+
+  <!-- === Results Section === -->
+  <div id="results"></div>
+
+  <!-- === Comments Section === -->
+  <div class="comments-section">
+    <h2>share your story</h2>
+    <form id="commentForm">
+      <textarea id="userComment" placeholder="tell us about your experience..."></textarea>
+      <button type="submit">post comment</button>
+    </form>
+    <div id="commentList"></div>
+  </div>
+
+  <!-- === Suggest Service Form === -->
+  <div class="suggest-form">
+    <h2>suggest a service</h2>
+    <form id="serviceForm">
+      <input type="text" id="serviceName" placeholder="Service Name" required />
+      <input type="text" id="serviceLocation" placeholder="Location" required />
+      <input type="text" id="serviceCategory" placeholder="Category" required />
+      <textarea id="serviceDetails" placeholder="Additional Info (optional)"></textarea>
+      <button type="submit">submit service</button>
+    </form>
+  </div>
+
+  <!-- === Walkthrough Overlay Section (at BOTTOM as requested) === -->
+  <div id="walkthrough-overlay" class="walkthrough-overlay hidden">
+
+    <div id="step-1" class="walkthrough-step hidden">
+      <button class="walkthrough-exit-btn">Exit</button>
+      <img src="assets/thumbnail_image1SelectCity.png" alt="Step 1" />
+      <button class="walkthrough-next-btn" data-next-step="2">Next</button>
+    </div>
+
+    <div id="step-2" class="walkthrough-step hidden">
+      <button class="walkthrough-exit-btn">Exit</button>
+      <img src="assets/thumbnail_image2SelectService.png" alt="Step 2" />  
+      <button class="walkthrough-next-btn" data-next-step="3">Next</button>
+    </div>
+
+    <div id="step-3" class="walkthrough-step hidden">
+      <button class="walkthrough-exit-btn">Exit</button>
+      <img src="assets/thumbnail_image3Map.png" alt="Step 3" />
+      <button class="walkthrough-next-btn" data-next-step="4">Next</button>
+    </div>
+
+    <div id="step-4" class="walkthrough-step hidden">
+      <button class="walkthrough-exit-btn">Exit</button>
+      <img src="assets/thumbnail_image4SuggestService.png" alt="Step 4" />
+      <button class="walkthrough-end-btn">Got it</button>
+    </div>
+
+  </div>
+
+  <!-- === Scripts === -->
+  <script src="locationServiceHandler.js"></script>
+
+</body>
+</html>

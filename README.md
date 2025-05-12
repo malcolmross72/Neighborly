@@ -22,3 +22,13 @@ Walkthrough onboarding had logic and visibility bugs — now fully operational
 It was a grind getting these things to work together, especially the service search and walkthrough. But it's finally clean, smooth, and running great. Well at lest Calgary is I'll be updating the city's next one is Edmonton. Big win this week.
 
 
+## Week 3 Update
+
+Completed and verified Red Deer entries (approx. 70 unique listings)
+
+- Added new categories: entertainment and indigenous services
+Updated backend validation to accept new categories
+Verified all Red Deer entries are unique via MySQL duplicate-checking query
+
+- Inserted services using INSERT IGNORE and enforced UNIQUE(name, address, contact)
+App tested locally and running properly

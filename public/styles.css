@@ -1,0 +1,309 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Style */
+h1 {
+    color: #2b5b84;
+    /* Alberta blue */
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.no-scroll {
+    overflow: hidden;
+  }
+
+/* Blue Buffalo Mascot Styling */
+.buffalo-img {
+    max-width: 200px;
+    margin: 0 auto 20px auto;
+    display: block;
+}
+
+/* Walkthrough Overlay */
+#walkthrough-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Walkthrough Step Popups */
+.walkthrough-step {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Walkthrough Images */
+.walkthrough-step img {
+    max-width: 250px;
+    height: auto;
+    margin-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Ensures hidden elements like the walkthrough overlay are completely removed from layout and don't block interaction */
+.hidden {
+    display: none !important;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+/* Walkthrough Exit Button (styled like the Next button) */
+.walkthrough-exit-btn {
+    padding: 10px 20px;
+    background-color: #2b5b84;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.walkthrough-exit-btn:hover {
+    background-color: #1f4264;
+}
+
+/* Select Dropdowns */
+select {
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Results Box */
+#results {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Service Entry Style */
+#results div {
+    margin-bottom: 20px;
+}
+
+#results h3 {
+    margin-top: 0;
+    color: #2b5b84;
+}
+
+/* Button Styling */
+button {
+    padding: 10px 20px;
+    background-color: #2b5b84;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1f4264;
+}
+
+/* Alberta Tourism Video Wrapper */
+.video-wrapper {
+    margin: 2rem 0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    text-align: center;
+}
+
+iframe {
+    width: 100%;
+    height: 400px;
+    border: none;
+    border-radius: 8px;
+}
+
+/* Animation for Walkthrough Overlay */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Welcome Section Layout */
+.welcome-section {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.welcome-content {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.welcome-text {
+    max-width: 400px;
+    text-align: left;
+}
+
+.welcome-text h1 {
+    margin-bottom: 10px;
+    color: #2b5b84;
+}
+
+.welcome-text p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+/* Start Tour Button (already added previously) */
+.start-tour-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2b5b84;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.start-tour-btn:hover {
+    background-color: #1f4264;
+}
+
+@media (max-width: 500px) {
+    .walkthrough-step {
+      max-width: 90%;
+      padding: 15px;
+    }
+  }
+
+  .walkthrough-end-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.walkthrough-end-btn:hover {
+    background-color: #388e3c;
+} 
+
+/* Match styling for text inputs and textarea to dropdowns */
+input[type="text"],
+textarea {
+  padding: 8px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+/* Add hover/focus visual feedback for interactive fields */
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #2b5b84;
+  outline: none;
+  box-shadow: 0 0 3px rgba(43, 91, 132, 0.5);
+}
+
+/* Style the service cards more explicitly and safely */
+.service-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Improve text input readability on mobile */
+@media (max-width: 500px) {
+  input[type="text"],
+  textarea {
+    font-size: 1rem;
+  }
+}
+
+/* === Search Form Inline Layout === */
+.search-container {
+    margin-bottom: 20px;
+  }
+  
+  #searchForm .form-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: flex-end;
+  }
+  
+  #searchForm label {
+    flex: 1 0 100px;
+  }
+  
+  #searchForm select,
+  #searchForm input[type="text"],
+  #searchForm button {
+    flex: 1 0 200px;
+    min-width: 180px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  #searchForm button {
+    background-color: #2b5b84;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #searchForm button:hover {
+    background-color: #1f4264;
+  }
