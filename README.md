@@ -32,3 +32,12 @@ Verified all Red Deer entries are unique via MySQL duplicate-checking query
 
 - Inserted services using INSERT IGNORE and enforced UNIQUE(name, address, contact)
 App tested locally and running properly
+
+## Week 4 Progress
+
+- Finalized the Lethbridge dataset by filling gaps in the *food assistance* category with new listings such as low-cost restaurants, grocery stores, and community meal providers.
+Verified that all categories in Lethbridge now meet or exceed expected coverage.
+Red Deer was re-checked for duplicates and category issues; confirmed clean and complete.
+
+- Noted and documented recurring local development environment issue: Node + MySQL crash loop. A reliable restart workaround is in place. Permanent fix with nodemon and MySQL reconnection logic planned.
+- All changes committed, pushed to GitHub, and documented in the week4_update.txt for Moodle submission.
