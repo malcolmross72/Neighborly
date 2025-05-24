@@ -41,3 +41,40 @@ Red Deer was re-checked for duplicates and category issues; confirmed clean and 
 
 - Noted and documented recurring local development environment issue: Node + MySQL crash loop. A reliable restart workaround is in place. Permanent fix with nodemon and MySQL reconnection logic planned.
 - All changes committed, pushed to GitHub, and documented in the week4_update.txt for Moodle submission.
+
+### Week 5 Progress
+
+*Cities Completed This Week:*
+- Grande Prairie
+- High Prairie
+
+*Previously Completed Cities:*
+- Lethbridge (first city with all 11 categories)
+- Medicine Hat
+- Lloydminster
+- Red Deer (updated during Week 4)
+
+*Categories Covered:*
+- Food Assistance  
+- Housing  
+- Legal Aid  
+- Employment Services  
+- Healthcare  
+- Education  
+- Mental Health  
+- Seniors Care  
+- Childcare  
+- Entertainment (added starting with Lethbridge)  
+- Indigenous Services (added starting with Lethbridge)
+
+*Highlights This Week:*
+- Full category coverage completed for cities from *Lethbridge though High Prairie*
+- Verified entries with strict one-org-per-city rule
+- Continued SQL validation with INSERT IGNORE format
+- Improved workflow using category-by-category batching
+- Prepared to revisit *Calgary*, *Edmonton*, and *Red Deer* to backfill new categories added after initial setup
+
+*Next Up:*
+- Peace River  
+- Fort McMurray  
+- Then backfilling newer categories in major cities (e.g., Calgary, Edmonton)
