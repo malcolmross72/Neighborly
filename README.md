@@ -72,9 +72,32 @@ Red Deer was re-checked for duplicates and category issues; confirmed clean and 
 - Verified entries with strict one-org-per-city rule
 - Continued SQL validation with INSERT IGNORE format
 - Improved workflow using category-by-category batching
-- Prepared to revisit *Calgary*, *Edmonton*, and *Red Deer* to backfill new categories added after initial setup
+- Prepared to revisit *Calgary*, *Edmonton*, and *Red Deer* to backfill new categories added
+     after initial setup
 
 *Next Up:*
 - Peace River  
 - Fort McMurray  
 - Then backfilling newer categories in major cities (e.g., Calgary, Edmonton)
+
+Project Update Summary – Week 6 (Final Week)
+
+This week I completed significant updates and fixes to the Neighborly service directory app:
+	•	UI Bug Fixes:
+	•	Reversed the order of the “View on Map” and “Visit Website” buttons to ensure 
+        correct behavior.
+	•	This fix resolved a critical issue where the wrong button was being triggered (e.g.,
+         clicking “Visit Website” would open a map instead).
+	•	Data Cleanup:
+	•	Corrected broken or improperly formatted URLs in the MySQL database.
+	•	Ensured all website links include https:// to prevent browser errors.
+	•	Cleaned and validated address data to ensure map links direct to accurate locations.
+	•	Regional Coverage Expanded:
+	•	Finalized and verified services for Edmonton, Red Deer, and Calgary.
+	•	Added new communities: Cold Lake and Drumheller.
+	•	Fixed and standardized entries from northern areas including Grande Prairie and 
+        Slave Lake.
+	•	Functionality Enhancements:
+	•	Improved the service card rendering in the frontend.
+	•	Implemented logic to filter out invalid address/map links.
+	•	Improved submission form logic and default fallbacks
